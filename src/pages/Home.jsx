@@ -21,7 +21,7 @@ const Body = () => {
   const navigate = useNavigate()
   const dispatch = useDispatch()
 
-  console.log("all data",Filterhotel);
+  
 
   useEffect(() =>{
     getHotels();
@@ -45,7 +45,7 @@ if(!isonline){
 
 
 const getId = (id)=>{
-  console.log("id chaiye yar",id);
+  
   usehotel(id,dispatch)
   navigate("/hotel")
   

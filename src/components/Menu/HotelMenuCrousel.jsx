@@ -4,7 +4,7 @@ import Crousel from './Crousel'
 
 const HotelMenuCrousel = ({data}) => {
 
-    console.log("offerWala",data);
+  
 
 
   return (

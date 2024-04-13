@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from '../components/Header';
 import Home from './Home';
-import HotelMenu from '../components/HotelMenu';
+import HotelMenu from '../components/Menu/HotelMenu';
 import About from '../components/About';
 
 const Body = () => {
